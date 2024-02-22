@@ -12,7 +12,7 @@
   - Data Source: Public Census Data is used
 
 ## Evaluation Data
-  - Data Source : Same data is split from training data
+  - Data Source : 25 percent of data is used for evaluating the model.
 
 ## Metrics
   - Metrics:
@@ -22,7 +22,7 @@
 
 
 ## Ethical Considerations
-  - Bias Evaluation: performed metrics on different data slices
+  - Bias Evaluation: after performing the metrics on different data slices, the data bias does exist in categories like workclass, education and maritual status. Further investigation of data is required if the model need to be used for real-life applications.
 
 ## Caveats and Recommendations
  - The model is intended for educational purpose only
